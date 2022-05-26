@@ -12,7 +12,7 @@ form.addEventListener('submit', function(event){
     h1.textContent = listItems
     ul.appendChild(li)
     li.appendChild(h1)
-
+    
     const editBtn = document.createElement('button')
     editBtn.setAttribute('id', 'editButton')
     editBtn.textContent = 'Edit'
